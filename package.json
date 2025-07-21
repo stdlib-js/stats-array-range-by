@@ -80,6 +80,8 @@
     "math",
     "maximum",
     "max",
+    "minimum",
+    "min",
     "range",
     "extremes",
     "dispersion",
