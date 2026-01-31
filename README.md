@@ -50,7 +50,7 @@ The [**range**][range] is defined as the difference between the maximum and mini
 ## Usage
 
 ```javascript
-import rangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range-by@deno/mod.js';
+import rangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range-by@v0.1.0-deno/mod.js';
 ```
 
 #### rangeBy( x, clbk\[, thisArg] )
@@ -126,7 +126,7 @@ var cnt = context.count;
 
 ```javascript
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@deno/mod.js';
-import rangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range-by@deno/mod.js';
+import rangeBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range-by@v0.1.0-deno/mod.js';
 
 function accessor( v ) {
     return v * 2.0;
