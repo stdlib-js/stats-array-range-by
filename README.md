@@ -52,6 +52,11 @@ The [**range**][range] is defined as the difference between the maximum and mini
 To use in Observable,
 
 ```javascript
+rangeBy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range-by@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-array-range-by/tags). For example,
+
+```javascript
 rangeBy = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range-by@v0.1.0-umd/browser.js' )
 ```
 
@@ -64,7 +69,7 @@ var rangeBy = require( 'path/to/vendor/umd/stats-array-range-by/index.js' )
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range-by@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range-by@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -153,7 +158,7 @@ var cnt = context.count;
 <html lang="en">
 <body>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range-by@v0.1.0-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/stats-array-range-by@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
